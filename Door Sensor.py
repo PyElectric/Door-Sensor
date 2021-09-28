@@ -1,6 +1,5 @@
 import RPi.GPIO as gpio
 import smtplib, ssl
-from time import sleep as sl
 
 gpio.setmode(gpio.BCM)
 gpio.setup(21, gpio.IN)
